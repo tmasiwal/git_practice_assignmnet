@@ -1,6 +1,12 @@
 let a=10;
+
 for(i=0;i<=a;i++){
-if(n%i==1){
-console.log("number is prime")
+if(a%i==0){
+count++
 }
+if (count==2){
+console.log("Prmine no");
+}
+else {
+console.log("Not prime")
 }
